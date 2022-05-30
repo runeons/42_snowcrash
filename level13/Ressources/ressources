@@ -1,0 +1,2 @@
+gdb
+breakpoint a ptrace et getuid ⇒ step puis set $eax = 0, step puis set $eax = 3013

