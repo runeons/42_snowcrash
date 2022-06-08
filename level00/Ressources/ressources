@@ -1,5 +1,5 @@
 https://elearning.intra.42.fr/notions/127/subnotions/465/videos/404
 
-find / -user flag00
+find / -user flag00 2>/dev/null
 
 https://www.dcode.fr/

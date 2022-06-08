@@ -1,2 +1,4 @@
-gdb
-breakpoint a ptrace et getuid ⇒ step puis set $eax = 0, step puis set $eax = 3013
+gdb /bin/getflag
+
+b *0x0804898e // apres ptrace - set $eax = 0
+b *0x08048b02 // apres getuid - set $eax = 3014
